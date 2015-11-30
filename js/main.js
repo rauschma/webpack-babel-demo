@@ -1,3 +1,3 @@
-const WORLD = 'world';
+import world from './world';
 
-document.getElementById('output').innerHTML = `Hello ${WORLD}!`;
+document.getElementById('output').innerHTML = `Hello ${world}!`;
