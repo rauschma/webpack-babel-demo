@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "author": "Axel Rauschmayer",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.18",
+    "babel-loader": "^6.1.0",
+
+    "webpack": "^1.12.6",
+    "copy-webpack-plugin": "^0.2.0",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
