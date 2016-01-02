@@ -13,6 +13,9 @@
     "watch": "webpack --watch",
     "start": "webpack-dev-server --hot --inline"
   },
+  "babel": {
+    "presets": ["es2015"]
+  },
   "author": "Axel Rauschmayer",
   "license": "MIT"
 }
